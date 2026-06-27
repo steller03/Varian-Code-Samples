@@ -79,16 +79,16 @@ Tiers A/B are done.
 | C5 | W2001-02 | DVHPlot | MVVM DVH/metrics → clusters 1, 3 | done | W2001-02-dvh-plot.md |
 | C6 | W2001-03 | DoseMetrics | MVVM DVH/metrics → clusters 1, 3 | done | W2001-03-dose-metrics.md |
 | C7 | W2001-04 | DoseParameters | MVVM DVH/metrics → clusters 1, 3 | done | W2001-04-dose-parameters.md |
-| C8 | DW16-13 | Intermediate_6 | opt / control structures → cluster 11 | queued | |
-| C9 | DW16-23 | ExtractBodySection | opt / control structures → cluster 11 | queued | |
-| C10 | DW16-24 | SplitStructure | opt / control structures → cluster 11 | queued | |
-| C11 | W1804-02 | CreateOptStructures | opt / control structures → cluster 11 | queued | |
-| C12 | DW16-10 | PatientSummary | plan / patient summary → cluster 16 | queued | |
-| C13 | DW18-08 | PlanInfo | plan / patient summary → cluster 16 | queued | |
-| C14 | DW16-11 | FindLargestVolume | ARIA mining / access → clusters 14, 15 | queued | |
-| C15 | DW14-06 | DataMining | ARIA mining / access → clusters 14, 15 | queued | |
-| C16 | DW18-02 | AppRoleSample | ARIA mining / access → clusters 14, 15 | queued | |
-| C17 | DW18-03 | ARIAAccessSample | ARIA mining / access → clusters 14, 15 | queued | |
+| C8 | DW16-13 | Intermediate_6 | opt / control structures → cluster 11 | done | DW16-13-ptv-ring-structures.md |
+| C9 | DW16-23 | ExtractBodySection | opt / control structures → cluster 11 | done | DW16-23-extract-body-section.md |
+| C10 | DW16-24 | SplitStructure | opt / control structures → cluster 11 | done | DW16-24-split-structure.md |
+| C11 | W1804-02 | CreateOptStructures | opt / control structures → cluster 11 | done | W1804-02-create-opt-structures.md |
+| C12 | DW16-10 | PatientSummary | plan / patient summary → cluster 16 | done | DW16-10-patient-summary.md |
+| C13 | DW18-08 | PlanInfo | plan / patient summary → cluster 16 | done | DW18-08-plan-info.md |
+| C14 | DW16-11 | FindLargestVolume | ARIA mining / access → clusters 14, 15 | done | DW16-11-find-largest-volume.md |
+| C15 | DW14-06 | DataMining | ARIA mining / access → clusters 14, 15 | done | DW14-06-data-mining.md |
+| C16 | DW18-02 | AppRoleSample | ARIA mining / access → clusters 14, 15 | done | DW18-02-app-role-sample.md |
+| C17 | DW18-03 | ARIAAccessSample | ARIA mining / access → clusters 14, 15 | done | DW18-03-aria-access-sample.md |
 | C18 | DW18-05 | DocumenServiceSample | ARIA mining / access → clusters 14, 15 | queued | |
 | C19 | W1504-03 | FindBrachyPlans | ARIA mining / access → clusters 14, 15 | queued | |
 | C20 | W2003-01 | AAWebServiceTests | ARIA mining / access → clusters 14, 15 | queued | |
