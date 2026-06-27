@@ -44,7 +44,7 @@ its 31 solutions are the workshop "katas," the densest and cheapest teaching vei
 
 | Event | Slug | Solutions | Triaged |
 |---|---|---:|:---:|
-| Developer Workshop 2016 (katas) | DW16 | 31 | ☐ |
+| Developer Workshop 2016 (katas) | DW16 | 31 | ☑ |
 | Developer Workshop 2014 | DW14 | 9 | ☐ |
 | Developer Workshop 2018 | DW18 | 9 | ☐ |
 | 16 Jan 2020 Webinar | W2001 | 4 | ☐ |
