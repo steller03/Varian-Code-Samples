@@ -34,7 +34,7 @@ Your explicit picks lead the queue (A1–A3), then the rest of the top 20 in ran
 | A18 | W1811-01 | DiggingIntoDVH | 4 | done | W1811-01-digging-into-dvh.md |
 | A19 | DW14-03 | RapidPlanEvaluation | 4 | done | DW14-03-rapidplan-evaluation.md |
 | A20 | ESAP-02 | Export3D | 4 | done | ESAP-02-export-3d.md |
-| A21 | RS15-02 | EUDScript — EUD/TCP/NTCP | 4 | queued | |
+| A21 | RS15-02 | EUDScript — EUD/TCP/NTCP | 4 | done | RS15-02-eud-tcp-ntcp.md |
 
 ## Tier B — next: remaining score-4 units — 17
 
@@ -42,12 +42,12 @@ Ordered by judgment. Probe after Tier A, or cherry-pick.
 
 | # | ID | Solution | Score | Status | Probe |
 |--:|---|---|:--:|---|---|
-| B1 | ESAP-09 | StructureIdFrequency — TG-263 histogram | 4 | queued | |
-| B2 | ESAP-03 | ExportBatchDVHs | 4 | queued | |
-| B3 | ESAP-11 | ProfileSamples — profiles + gamma | 4 | queued | |
-| B4 | ESAP-08 | RBEReport (project form) | 4 | queued | |
-| B5 | W2103-01 | BeamDataVisualization | 4 | queued | |
-| B6 | DW18-01 | VAIS — OAuth/FHIR ARIA | 4 | queued | |
+| B1 | ESAP-09 | StructureIdFrequency — TG-263 histogram | 4 | done | ESAP-09-structure-id-frequency.md |
+| B2 | ESAP-03 | ExportBatchDVHs | 4 | done | ESAP-03-export-batch-dvhs.md |
+| B3 | ESAP-11 | ProfileSamples — profiles + gamma | 4 | done | ESAP-11-profile-samples.md |
+| B4 | ESAP-08 | RBEReport (project form) | 4 | done | ESAP-08-rbe-report.md |
+| B5 | W2103-01 | BeamDataVisualization | 4 | done | W2103-01-beam-data-visualization.md |
+| B6 | DW18-01 | VAIS — OAuth/FHIR ARIA | 4 | done | DW18-01-vais-aria-webservice.md |
 | B7 | DW18-06 | AutoPlan | 4 | queued | |
 | B8 | W1504-02 | EQD2_2 — plan sums + PDR brachy | 4 | queued | |
 | B9 | W1804-03 | CreateVerificationPlan — IMRT QA | 4 | queued | |
