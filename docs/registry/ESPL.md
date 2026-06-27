@@ -10,9 +10,9 @@ across DVH metrics, geometry export, web reporting, and DICOM interop.
 | ID | Solution | Path | Ver | Type | Category | Verdict | Problem | Score | Probe |
 |---|---|---|---|---|---|---|---|---|---|
 | ESPL-01 | DvhLookups | Eclipse Scripting API/plugins/DvhLookups.cs | v11 | Script (single-file) | DVH & dose metrics | Liftable | Interactively look up dose-at-volume and volume-at-dose for a structure | 3 | → probes/ESPL-01-dvh-lookups.md |
-| ESPL-02 | Export3D | Eclipse Scripting API/plugins/Export3D.cs | v11 | Script (single-file) | Reporting & documents (Image & registration) | Adaptable | Export structures, dose and isodoses to VTK/PLY meshes for external viewing or 3D printing | 4 | |
+| ESPL-02 | Export3D | Eclipse Scripting API/plugins/Export3D.cs | v11 | Script (single-file) | Reporting & documents (Image & registration) | Adaptable | Export structures, dose and isodoses to VTK/PLY meshes for external viewing or 3D printing | 4 | → probes/ESAP-02-export-3d.md (twin of ESAP-02) |
 | ESPL-03 | GenerateWebDVH | Eclipse Scripting API/plugins/GenerateWebDVH.cs | v11 | Script (single-file) | DVH & dose metrics (Reporting & documents) | Illustrative | Render selected-structure DVHs as a browser HTML/JavaScript chart | 2 | → probes/ESPL-03-generate-web-dvh.md |
-| ESPL-04 | GetDicomCollection | Eclipse Scripting API/plugins/GetDicomCollection.cs | v11 | Script (single-file) | DICOM I/O & interop | Adaptable | Generate and run a DCMTK C-MOVE to retrieve a plan's CT, structures and dose | 4 | |
+| ESPL-04 | GetDicomCollection | Eclipse Scripting API/plugins/GetDicomCollection.cs | v11 | Script (single-file) | DICOM I/O & interop | Adaptable | Generate and run a DCMTK C-MOVE to retrieve a plan's CT, structures and dose | 4 | → probes/ESAP-05-get-dicom-collection.md (twin of ESAP-05) |
 
 ## Standouts
 - **ESPL-04 (GetDicomCollection)** — scripts the VMS DICOM DB Daemon via DCMTK to pull a full plan dataset, a real interop workflow.

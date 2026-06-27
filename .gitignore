@@ -325,3 +325,6 @@ ASALocalRun/
 
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
+
+# Backup written by docs/enrich_toc.py (probe_queue.md.bak)
+docs/*.md.bak

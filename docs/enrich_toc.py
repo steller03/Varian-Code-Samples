@@ -89,7 +89,9 @@ def main():
                 path = id_path[uid]
                 c[2] = f"[{name}]({rel_link(path)}){sep}{rest}"
                 n_src += 1
-                if not os.path.isdir(os.path.join(docs, "..", path)):
+                # Accept a folder (solution dir) or a file (single-file script unit,
+                # e.g. ESPL/W1504 .cs plugins whose Path is the script itself).
+                if not os.path.exists(os.path.join(docs, "..", path)):
                     no_path.append((uid, path))
             else:
                 unmapped.append(uid)

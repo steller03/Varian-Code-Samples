@@ -8,33 +8,58 @@ anything already `done`.
 
 `Status`: `queued` → `done` (the dispatch flips it and fills the `Probe` link).
 
+## Events
+
+Meeting, date, and presenter are event-level, so they are captured once here (16 events)
+instead of repeated on every unit row. A presenter is listed only where the repo documents it
+— a README, a slide / track-details PDF, or a code author tag; `—` means none was found in-repo.
+
+| Slug | Event / meeting | Date | Presenter(s) | Notes |
+|---|---|---|---|---|
+| DW16 | Developer Workshop 2016 | 2016 | Minsong Cao (UCLA); Jason Hu (MSKCC); Markus Varsta (Varian); TJ Whitaker (Mayo) | Eclipse Scripting hands-on katas, Jul 29–30, Washington D.C. Names are the 5-min “Ninja Demo” presenters per `160728 ESAPI Track Details.pdf`; individual katas not separately attributed (Minsong Cao also tagged as author of newbie.6 in code). |
+| DW14 | Developer Workshop 2014 | 2014 | Wayne Keranen; Suominen; Morgas | Hands-on exercise authors per the `*-ESAPI-Exercise*.pdf` filenames and PDF `/Author` (Wayne Keranen); guru-track project authorship not documented. |
+| DW18 | Developer Workshop 2018 | 2018 | Connie Upman (Varian) | ESAPI Introduction track slides `/Author` Connie Upman (`ESAPI_Intro_DW2018.pdf`); folder also covers ARIA-Access / VAIS web-service samples. |
+| W2001 | 16 Jan 2020 Webinar | 16 Jan 2020 | Matthew Schmidt (Washington University) | MVVM for ESAPI WPF apps (Eclipse v15.6). Code author tag `matthew.schmidt@wustl.edu`, © 2019 Washington University. |
+| W1504 | 21 Apr 2015 Webinar | 21 Apr 2015 | — | EQD2/BED & brachytherapy plugins; no presenter documented in-repo. |
+| W1804 | 06 Apr 2018 Webinar | 06 Apr 2018 | — | Structure-prep → field-setup → QA-verification scripts; no presenter documented. |
+| RS15 | Research Symposium 2015 | 2015 | — | ESAPI track (© VMS 2015); no individual presenter documented. |
+| W1810 | 16 Oct 2018 Webinar | 16 Oct 2018 | — | Visual Scripting ActionPacks (custom VisualScriptElement); no presenter documented. |
+| W2008 | 20 Aug 2020 Webinar — Constraint Export | 20 Aug 2020 | Brandon Koger | Added the Plan Comparison Tool and authored the 2020 install guide (`/Author`); earlier contributors Steve Thompson, Tomasz Morgas, Matt Schmidt per the code revision history. |
+| W2103 | 31 Mar 2021 Webinar — Beam Data Visualization | 31 Mar 2021 | — | WPF/Prism + OxyPlot beam-scan viewer; no presenter documented. |
+| W1712 | 17 Dec 2017 Webinar | 17 Dec 2017 | — | DoseReview DVH viewer; no presenter documented. |
+| W1811 | 14 Nov 2018 Webinar (DVH) | 14 Nov 2018 | — | Digging Into DVH, built on the ESAPIX helper library; no presenter documented. |
+| DS23 | 22 Jul 2023 Developer Symposium | 22 Jul 2023 | Roni Hytonen (Varian) | 2023 AAPM Annual Meeting · Varian Developer Symposium; talk “ESAPI for Proton Planning” (Eclipse 16–18), slide deck `ProtonFeaturesDemo_AAPM_RH_Jul2023.pdf`. |
+| W2003 | 23 Mar 2020 Webinar — ARIA Access | 23 Mar 2020 | — | ARIA Access web-service (REST/JSON) sample; no presenter documented. |
+| ESAP | Eclipse Scripting API — projects | n/a | — | Standing reference-project collection (undated). |
+| ESPL | Eclipse Scripting API — plugins | n/a | — | Standing single-file plugin collection (undated). |
+
 ## Tier A — probe these (top 20 + requested) — 21 units
 
 Your explicit picks lead the queue (A1–A3), then the rest of the top 20 in rank order.
 
 | # | ID | Solution | Score | Status | Probe |
 |--:|---|---|:--:|---|---|
-| A1 | DW16-16 | ExtractDosePlane — planar dose → CSV | 4 | done | DW16-16-extract-dose-plane.md |
-| A2 | ESAP-01 | DataMining — per-patient treatment report | 4 | done | ESAP-01-data-mining.md |
-| A3 | ESAP-05 | GetDicomCollection — DCMTK C-MOVE | 4 | done | ESAP-05-get-dicom-collection.md |
-| A4 | DW18-04 | AutomatedPlanningDemo (MCO) | 5 | done | DW18-04-automated-planning-mco.md |
-| A5 | RS15-01 | AutomatedPlanningDemo (full pipeline) | 5 | done | RS15-01-automated-planning-pipeline.md |
-| A6 | DS23-01 | ProtonFeaturesDemo (v18 IMPT) | 5 | done | DS23-01-proton-features-demo.md |
-| A7 | DW16-22 | Advanced_5 — automated VMAT | 5 | done | DW16-22-automated-vmat-planning.md |
-| A8 | ESAP-06 | PlanQualityMetrics | 5 | done | ESAP-06-plan-quality-metrics.md |
-| A9 | ESAP-10 | Uab.VMS.Console — ESAPI REPL | 5 | done | ESAP-10-esapi-repl-console.md |
-| A10 | ESAP-07 | PluginTester | 5 | done | ESAP-07-plugin-tester.md |
-| A11 | DW14-01 | ESAPIAnon — C-MOVE + anonymize | 5 | done | DW14-01-esapi-anon.md |
-| A12 | W1504-04 | RBEReport — interactive radiobiology | 5 | done | W1504-04-rbe-report.md |
-| A13 | DW16-18 | DvhBioCorrection — LQ DVH correction | 5 | done | DW16-18-dvh-bio-correction.md |
-| A14 | DW16-21 | Advanced_4 — cohort mining | 5 | done | DW16-21-data-mine-by-anatomy.md |
-| A15 | DW16-31 | CustomPostProcessing — spot-MU limits | 5 | done | DW16-31-proton-spot-mu-limits.md |
-| A16 | W2008-01 | DVH_Evaluator | 4 | done | W2008-01-dvh-evaluator.md |
-| A17 | W2001-01 | DoseMetricExample (MVVM) | 4 | done | W2001-01-dose-metric-mvvm.md |
-| A18 | W1811-01 | DiggingIntoDVH | 4 | done | W1811-01-digging-into-dvh.md |
-| A19 | DW14-03 | RapidPlanEvaluation | 4 | done | DW14-03-rapidplan-evaluation.md |
-| A20 | ESAP-02 | Export3D | 4 | done | ESAP-02-export-3d.md |
-| A21 | RS15-02 | EUDScript — EUD/TCP/NTCP | 4 | done | RS15-02-eud-tcp-ntcp.md |
+| A1 | DW16-16 | [ExtractDosePlane](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/intermediate.9/solution/Eclipse%20Scripting%20API/Projects/ExtractDosePlane) — planar dose → CSV | 4 | done | [DW16-16-extract-dose-plane.md](probes/DW16-16-extract-dose-plane.md) |
+| A2 | ESAP-01 | [DataMining](../Eclipse%20Scripting%20API/projects/DataMining) — per-patient treatment report | 4 | done | [ESAP-01-data-mining.md](probes/ESAP-01-data-mining.md) |
+| A3 | ESAP-05 | [GetDicomCollection](../Eclipse%20Scripting%20API/projects/GetDicomCollection) — DCMTK C-MOVE | 4 | done | [ESAP-05-get-dicom-collection.md](probes/ESAP-05-get-dicom-collection.md) |
+| A4 | DW18-04 | [AutomatedPlanningDemo (MCO)](../webinars%20%26%20workshops/Developer%20Workshop%202018/AutoPlanningWithMCO) | 5 | done | [DW18-04-automated-planning-mco.md](probes/DW18-04-automated-planning-mco.md) |
+| A5 | RS15-01 | [AutomatedPlanningDemo (full pipeline)](../webinars%20%26%20workshops/Research%20Symposium%202015/Eclipse%20Scripting%20API/Projects/AutomatedPlanningDemo) | 5 | done | [RS15-01-automated-planning-pipeline.md](probes/RS15-01-automated-planning-pipeline.md) |
+| A6 | DS23-01 | [ProtonFeaturesDemo (v18 IMPT)](../webinars%20%26%20workshops/22%20Jul%202023%20Developer%20Symposium/ProtonFeaturesDemo) | 5 | done | [DS23-01-proton-features-demo.md](probes/DS23-01-proton-features-demo.md) |
+| A7 | DW16-22 | [Advanced_5](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Advanced.5/Projects/Advanced_5) — automated VMAT | 5 | done | [DW16-22-automated-vmat-planning.md](probes/DW16-22-automated-vmat-planning.md) |
+| A8 | ESAP-06 | [PlanQualityMetrics](../Eclipse%20Scripting%20API/projects/PlanQualityMetrics) | 5 | done | [ESAP-06-plan-quality-metrics.md](probes/ESAP-06-plan-quality-metrics.md) |
+| A9 | ESAP-10 | [Uab.VMS.Console](../Eclipse%20Scripting%20API/projects/Uab.VMS.Console) — ESAPI REPL | 5 | done | [ESAP-10-esapi-repl-console.md](probes/ESAP-10-esapi-repl-console.md) |
+| A10 | ESAP-07 | [PluginTester](../Eclipse%20Scripting%20API/projects/PluginTester) | 5 | done | [ESAP-07-plugin-tester.md](probes/ESAP-07-plugin-tester.md) |
+| A11 | DW14-01 | [ESAPIAnon](../webinars%20%26%20workshops/Developer%20Workshop%202014/guru%20track%20projects/DICOM%20Anonymizer/ESAPIAnon) — C-MOVE + anonymize | 5 | done | [DW14-01-esapi-anon.md](probes/DW14-01-esapi-anon.md) |
+| A12 | W1504-04 | [RBEReport](../webinars%20%26%20workshops/21%20Apr%202015%20Webinar/Eclipse%20Scripting%20API/Projects/RBEReport) — interactive radiobiology | 5 | done | [W1504-04-rbe-report.md](probes/W1504-04-rbe-report.md) |
+| A13 | DW16-18 | [DvhBioCorrection](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Advanced.1/DvhBioCorrection) — LQ DVH correction | 5 | done | [DW16-18-dvh-bio-correction.md](probes/DW16-18-dvh-bio-correction.md) |
+| A14 | DW16-21 | [Advanced_4](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Advanced.4/Advanced_4) — cohort mining | 5 | done | [DW16-21-data-mine-by-anatomy.md](probes/DW16-21-data-mine-by-anatomy.md) |
+| A15 | DW16-31 | [CustomPostProcessing](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Proton.4/solution/Projects/CustomPostProcessing) — spot-MU limits | 5 | done | [DW16-31-proton-spot-mu-limits.md](probes/DW16-31-proton-spot-mu-limits.md) |
+| A16 | W2008-01 | [DVH_Evaluator](../webinars%20%26%20workshops/20%20Aug%202020%20Webinar%20-%20Constraint%20Export/DVHEvaluator_Main) | 4 | done | [W2008-01-dvh-evaluator.md](probes/W2008-01-dvh-evaluator.md) |
+| A17 | W2001-01 | [DoseMetricExample (MVVM)](../webinars%20%26%20workshops/16%20Jan%202020%20Webinar/AppsCombined/DoseMetricExample) | 4 | done | [W2001-01-dose-metric-mvvm.md](probes/W2001-01-dose-metric-mvvm.md) |
+| A18 | W1811-01 | [DiggingIntoDVH](../webinars%20%26%20workshops/14%20Nov%202018%20Webinar%20%28DVH%29/DiggingIntoDVH) | 4 | done | [W1811-01-digging-into-dvh.md](probes/W1811-01-digging-into-dvh.md) |
+| A19 | DW14-03 | [RapidPlanEvaluation](../webinars%20%26%20workshops/Developer%20Workshop%202014/guru%20track%20projects/RapidPlanEvaluation) | 4 | done | [DW14-03-rapidplan-evaluation.md](probes/DW14-03-rapidplan-evaluation.md) |
+| A20 | ESAP-02 | [Export3D](../Eclipse%20Scripting%20API/projects/Export3D) | 4 | done | [ESAP-02-export-3d.md](probes/ESAP-02-export-3d.md) |
+| A21 | RS15-02 | [EUDScript](../webinars%20%26%20workshops/Research%20Symposium%202015/Eclipse%20Scripting%20API/Projects/EUDScript) — EUD/TCP/NTCP | 4 | done | [RS15-02-eud-tcp-ntcp.md](probes/RS15-02-eud-tcp-ntcp.md) |
 
 ## Tier B — next: remaining score-4 units — 17
 
@@ -42,23 +67,23 @@ Ordered by judgment. Probe after Tier A, or cherry-pick.
 
 | # | ID | Solution | Score | Status | Probe |
 |--:|---|---|:--:|---|---|
-| B1 | ESAP-09 | StructureIdFrequency — TG-263 histogram | 4 | done | ESAP-09-structure-id-frequency.md |
-| B2 | ESAP-03 | ExportBatchDVHs | 4 | done | ESAP-03-export-batch-dvhs.md |
-| B3 | ESAP-11 | ProfileSamples — profiles + gamma | 4 | done | ESAP-11-profile-samples.md |
-| B4 | ESAP-08 | RBEReport (project form) | 4 | done | ESAP-08-rbe-report.md |
-| B5 | W2103-01 | BeamDataVisualization | 4 | done | W2103-01-beam-data-visualization.md |
-| B6 | DW18-01 | VAIS — OAuth/FHIR ARIA | 4 | done | DW18-01-vais-aria-webservice.md |
-| B7 | DW18-06 | AutoPlan | 4 | done | DW18-06-autoplan.md |
-| B8 | W1504-02 | EQD2_2 — plan sums + PDR brachy | 4 | done | W1504-02-eqd2-plan-sum-pdr.md |
-| B9 | W1804-03 | CreateVerificationPlan — IMRT QA | 4 | done | W1804-03-create-verification-plan.md |
-| B10 | DW16-09 | PlanQualityCheck | 4 | done | DW16-09-plan-quality-check.md |
-| B11 | DW16-12 | CreateVerificationPlan | 4 | done | DW16-12-create-verification-plan.md |
-| B12 | DW16-17 | Intermediate_10 — collimator clearance | 4 | done | DW16-17-collimator-clearance.md |
-| B13 | DW16-19 | A3_Plugin — control-point report | 4 | done | DW16-19-control-point-report.md |
-| B14 | DW16-30 | SpotWeightReporting | 4 | done | DW16-30-spot-weight-reporting.md |
-| B15 | DW16-28 | Proton1 — uncertainty DVH max | 4 | done | DW16-28-29-proton-uncertainty-dvh.md |
-| B16 | DW16-29 | Proton2 — uncertainty DVH D95 | 4 | done | DW16-28-29-proton-uncertainty-dvh.md |
-| B17 | W1810-02 | PlanChecker — Visual Scripting | 4 | done | W1810-02-plan-checker.md |
+| B1 | ESAP-09 | [StructureIdFrequency](../Eclipse%20Scripting%20API/projects/StructureIdFrequency) — TG-263 histogram | 4 | done | [ESAP-09-structure-id-frequency.md](probes/ESAP-09-structure-id-frequency.md) |
+| B2 | ESAP-03 | [ExportBatchDVHs](../Eclipse%20Scripting%20API/projects/ExportBatchDVHs) | 4 | done | [ESAP-03-export-batch-dvhs.md](probes/ESAP-03-export-batch-dvhs.md) |
+| B3 | ESAP-11 | [ProfileSamples](../Eclipse%20Scripting%20API/projects/ProfileSamples) — profiles + gamma | 4 | done | [ESAP-11-profile-samples.md](probes/ESAP-11-profile-samples.md) |
+| B4 | ESAP-08 | [RBEReport (project form)](../Eclipse%20Scripting%20API/projects/RBEReport) | 4 | done | [ESAP-08-rbe-report.md](probes/ESAP-08-rbe-report.md) |
+| B5 | W2103-01 | [BeamDataVisualization](../webinars%20%26%20workshops/31%20Mar%202021%20Webinar%20-%20Beam%20Data%20Visualization) | 4 | done | [W2103-01-beam-data-visualization.md](probes/W2103-01-beam-data-visualization.md) |
+| B6 | DW18-01 | [VAIS](../webinars%20%26%20workshops/Developer%20Workshop%202018/Accessing%20ARIA%20with%20VAIS) — OAuth/FHIR ARIA | 4 | done | [DW18-01-vais-aria-webservice.md](probes/DW18-01-vais-aria-webservice.md) |
+| B7 | DW18-06 | [AutoPlan](../webinars%20%26%20workshops/Developer%20Workshop%202018/ESAPI%20Introduction/Completed%20Projects/Projects/AutoPlan) | 4 | done | [DW18-06-autoplan.md](probes/DW18-06-autoplan.md) |
+| B8 | W1504-02 | [EQD2_2](../webinars%20%26%20workshops/21%20Apr%202015%20Webinar/Eclipse%20Scripting%20API/Projects/EQD2_2) — plan sums + PDR brachy | 4 | done | [W1504-02-eqd2-plan-sum-pdr.md](probes/W1504-02-eqd2-plan-sum-pdr.md) |
+| B9 | W1804-03 | [CreateVerificationPlan](../webinars%20%26%20workshops/06%20Apr%202018%20Webinar/Eclipse%20Scripting%20API/Projects/CreateVerificationPlan) — IMRT QA | 4 | done | [W1804-03-create-verification-plan.md](probes/W1804-03-create-verification-plan.md) |
+| B10 | DW16-09 | [PlanQualityCheck](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/intermediate.2/solution/Eclipse%20Scripting%20API/Projects/PlanQualityCheck) | 4 | done | [DW16-09-plan-quality-check.md](probes/DW16-09-plan-quality-check.md) |
+| B11 | DW16-12 | [CreateVerificationPlan](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/intermediate.5/solution/Eclipse%20Scripting%20API/Projects/CreateVerificationPlan) | 4 | done | [DW16-12-create-verification-plan.md](probes/DW16-12-create-verification-plan.md) |
+| B12 | DW16-17 | [Intermediate_10](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Intermediate.10/Projects/Intermediate_10) — collimator clearance | 4 | done | [DW16-17-collimator-clearance.md](probes/DW16-17-collimator-clearance.md) |
+| B13 | DW16-19 | [A3_Plugin](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Advanced.3/Projects/A3_Plugin) — control-point report | 4 | done | [DW16-19-control-point-report.md](probes/DW16-19-control-point-report.md) |
+| B14 | DW16-30 | [SpotWeightReporting](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Proton.3/solution/Projects/SpotWeightReporting) | 4 | done | [DW16-30-spot-weight-reporting.md](probes/DW16-30-spot-weight-reporting.md) |
+| B15 | DW16-28 | [Proton1](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Proton.1/solution/Eclipse%20Scripting%20API/Projects/Proton1) — uncertainty DVH max | 4 | done | [DW16-28-29-proton-uncertainty-dvh.md](probes/DW16-28-29-proton-uncertainty-dvh.md) |
+| B16 | DW16-29 | [Proton2](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Proton.2/solution/Eclipse%20Scripting%20API/Projects/Proton2) — uncertainty DVH D95 | 4 | done | [DW16-28-29-proton-uncertainty-dvh.md](probes/DW16-28-29-proton-uncertainty-dvh.md) |
+| B17 | W1810-02 | [PlanChecker](../webinars%20%26%20workshops/16%20Oct%202018%20Webinar/ActionPacks/Projects/PlanChecker) — Visual Scripting | 4 | done | [W1810-02-plan-checker.md](probes/W1810-02-plan-checker.md) |
 
 Note: B15 + B16 are a paired proton-DVH exercise — consider one combined probe.
 
@@ -72,37 +97,37 @@ Tiers A/B are done.
 
 | # | ID | Solution | Cluster / note | Status | Probe |
 |--:|---|---|---|---|---|
-| C1 | DW16-01 | DVHMetrics | DVH-extract → cluster 1 (W1811-01) | done | DW16-01-dvh-metrics.md |
-| C2 | DW16-02 | CSVDVHMetrics | DVH-extract → cluster 1 (W1811-01) | done | DW16-02-csv-dvh-metrics.md |
-| C3 | DW16-08 | DVHExtract | DVH-extract → cluster 1 (W1811-01) | done | DW16-08-dvh-extract.md |
-| C4 | DW16-15 | VolumeAtPercentDose | DVH-extract → cluster 1 (W1811-01) | done | DW16-15-volume-at-percent-dose.md |
-| C5 | W2001-02 | DVHPlot | MVVM DVH/metrics → clusters 1, 3 | done | W2001-02-dvh-plot.md |
-| C6 | W2001-03 | DoseMetrics | MVVM DVH/metrics → clusters 1, 3 | done | W2001-03-dose-metrics.md |
-| C7 | W2001-04 | DoseParameters | MVVM DVH/metrics → clusters 1, 3 | done | W2001-04-dose-parameters.md |
-| C8 | DW16-13 | Intermediate_6 | opt / control structures → cluster 11 | done | DW16-13-ptv-ring-structures.md |
-| C9 | DW16-23 | ExtractBodySection | opt / control structures → cluster 11 | done | DW16-23-extract-body-section.md |
-| C10 | DW16-24 | SplitStructure | opt / control structures → cluster 11 | done | DW16-24-split-structure.md |
-| C11 | W1804-02 | CreateOptStructures | opt / control structures → cluster 11 | done | W1804-02-create-opt-structures.md |
-| C12 | DW16-10 | PatientSummary | plan / patient summary → cluster 16 | done | DW16-10-patient-summary.md |
-| C13 | DW18-08 | PlanInfo | plan / patient summary → cluster 16 | done | DW18-08-plan-info.md |
-| C14 | DW16-11 | FindLargestVolume | ARIA mining / access → clusters 14, 15 | done | DW16-11-find-largest-volume.md |
-| C15 | DW14-06 | DataMining | ARIA mining / access → clusters 14, 15 | done | DW14-06-data-mining.md |
-| C16 | DW18-02 | AppRoleSample | ARIA mining / access → clusters 14, 15 | done | DW18-02-app-role-sample.md |
-| C17 | DW18-03 | ARIAAccessSample | ARIA mining / access → clusters 14, 15 | done | DW18-03-aria-access-sample.md |
-| C18 | DW18-05 | DocumenServiceSample | ARIA mining / access → clusters 14, 15 | done | DW18-05-document-service.md |
-| C19 | W1504-03 | FindBrachyPlans | ARIA mining / access → clusters 14, 15 | done | W1504-03-find-brachy-plans.md |
-| C20 | W2003-01 | AAWebServiceTests | ARIA mining / access → clusters 14, 15 | done | W2003-01-aria-access-appointments.md |
-| C21 | DW14-04 | SimpleUIDemoApp | scaffolding → cluster 18 | done | DW14-04-simple-ui-selection-box.md |
-| C22 | DW18-09 | ESAPIX_Demos | scaffolding → cluster 18 | done | DW18-09-esapix-demos.md |
-| C23 | DW16-14 | MeanCTNumber | image / CT (no probed exemplar) | done | DW16-14-mean-ct-number.md |
-| C24 | DW14-09 | TRE | image / registration (no probed exemplar) | done | DW14-09-tre-registration.md |
-| C25 | DW16-25 | PlanIndices | plan indices (distinct) | done | DW16-25-plan-indices.md |
-| C26 | W1504-01 | EQD2_1 | EQD2 → cluster 5 | done | W1504-01-eqd2.md |
-| C27 | W1712-01 | Example_DVH | DVH plot → cluster 3 | done | W1712-01-example-dvh.md |
-| C28 | ESAP-04 | GenerateWebDVH | web DVH / lookups → clusters 1, 3 | done | ESAP-04-generate-web-dvh.md |
-| C29 | ESPL-01 | DvhLookups | web DVH / lookups → clusters 1, 3 | done | ESPL-01-dvh-lookups.md |
-| C30 | DW14-08 | Superplan | compact planning → cluster 7 | done | DW14-08-superplan.md |
-| C31 | W1804-01 | CreateAPPA | compact planning → cluster 7 | done | W1804-01-create-appa.md |
+| C1 | DW16-01 | [DVHMetrics](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/newbie.1/Eclipse%20Scripting%20API/Projects/DVHMetrics) | DVH-extract → cluster 1 (W1811-01) | done | [DW16-01-dvh-metrics.md](probes/DW16-01-dvh-metrics.md) |
+| C2 | DW16-02 | [CSVDVHMetrics](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Newbie.2/TextDVHMetrics) | DVH-extract → cluster 1 (W1811-01) | done | [DW16-02-csv-dvh-metrics.md](probes/DW16-02-csv-dvh-metrics.md) |
+| C3 | DW16-08 | [DVHExtract](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/intermediate.1/solution/Eclipse%20Scripting%20API/Projects/DVHExtract) | DVH-extract → cluster 1 (W1811-01) | done | [DW16-08-dvh-extract.md](probes/DW16-08-dvh-extract.md) |
+| C4 | DW16-15 | [VolumeAtPercentDose](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/intermediate.8/solution/Eclipse%20Scripting%20API/Projects/VolumeAtPercentDose) | DVH-extract → cluster 1 (W1811-01) | done | [DW16-15-volume-at-percent-dose.md](probes/DW16-15-volume-at-percent-dose.md) |
+| C5 | W2001-02 | [DVHPlot](../webinars%20%26%20workshops/16%20Jan%202020%20Webinar/SeparatedApps/Projects/DVHPlot) | MVVM DVH/metrics → clusters 1, 3 | done | [W2001-02-dvh-plot.md](probes/W2001-02-dvh-plot.md) |
+| C6 | W2001-03 | [DoseMetrics](../webinars%20%26%20workshops/16%20Jan%202020%20Webinar/SeparatedApps/Projects/DoseMetrics) | MVVM DVH/metrics → clusters 1, 3 | done | [W2001-03-dose-metrics.md](probes/W2001-03-dose-metrics.md) |
+| C7 | W2001-04 | [DoseParameters](../webinars%20%26%20workshops/16%20Jan%202020%20Webinar/SeparatedApps/Projects/DoseParameters) | MVVM DVH/metrics → clusters 1, 3 | done | [W2001-04-dose-parameters.md](probes/W2001-04-dose-parameters.md) |
+| C8 | DW16-13 | [Intermediate_6](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/intermediate.6/Intermediate_6) | opt / control structures → cluster 11 | done | [DW16-13-ptv-ring-structures.md](probes/DW16-13-ptv-ring-structures.md) |
+| C9 | DW16-23 | [ExtractBodySection](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Advanced.6/Seppo.1/solution/Projects/ExtractBodySection) | opt / control structures → cluster 11 | done | [DW16-23-extract-body-section.md](probes/DW16-23-extract-body-section.md) |
+| C10 | DW16-24 | [SplitStructure](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Advanced.6/solution/Projects/SplitStructure) | opt / control structures → cluster 11 | done | [DW16-24-split-structure.md](probes/DW16-24-split-structure.md) |
+| C11 | W1804-02 | [CreateOptStructures](../webinars%20%26%20workshops/06%20Apr%202018%20Webinar/Eclipse%20Scripting%20API/Projects/CreateOptStructures) | opt / control structures → cluster 11 | done | [W1804-02-create-opt-structures.md](probes/W1804-02-create-opt-structures.md) |
+| C12 | DW16-10 | [PatientSummary](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Intermediate.3/PatientSummary) | plan / patient summary → cluster 16 | done | [DW16-10-patient-summary.md](probes/DW16-10-patient-summary.md) |
+| C13 | DW18-08 | [PlanInfo](../webinars%20%26%20workshops/Developer%20Workshop%202018/ESAPI%20Introduction/Completed%20Projects/Projects/PlanInfo) | plan / patient summary → cluster 16 | done | [DW18-08-plan-info.md](probes/DW18-08-plan-info.md) |
+| C14 | DW16-11 | [FindLargestVolume](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/intermediate.4/solution/Eclipse%20Scripting%20API/Projects/FindLargestVolume) | ARIA mining / access → clusters 14, 15 | done | [DW16-11-find-largest-volume.md](probes/DW16-11-find-largest-volume.md) |
+| C15 | DW14-06 | [DataMining](../webinars%20%26%20workshops/Developer%20Workshop%202014/hands-on%20exercises/exercise%202/Eclipse%20Scripting%20API/Projects/DataMining) | ARIA mining / access → clusters 14, 15 | done | [DW14-06-data-mining.md](probes/DW14-06-data-mining.md) |
+| C16 | DW18-02 | [AppRoleSample](../webinars%20%26%20workshops/Developer%20Workshop%202018/ApplicationRoleSample) | ARIA mining / access → clusters 14, 15 | done | [DW18-02-app-role-sample.md](probes/DW18-02-app-role-sample.md) |
+| C17 | DW18-03 | [ARIAAccessSample](../webinars%20%26%20workshops/Developer%20Workshop%202018/Aria%20Access%20Sample) | ARIA mining / access → clusters 14, 15 | done | [DW18-03-aria-access-sample.md](probes/DW18-03-aria-access-sample.md) |
+| C18 | DW18-05 | [DocumenServiceSample](../webinars%20%26%20workshops/Developer%20Workshop%202018/DocumenServiceSample) | ARIA mining / access → clusters 14, 15 | done | [DW18-05-document-service.md](probes/DW18-05-document-service.md) |
+| C19 | W1504-03 | [FindBrachyPlans](../webinars%20%26%20workshops/21%20Apr%202015%20Webinar/Eclipse%20Scripting%20API/Projects/FindBrachyPlans) | ARIA mining / access → clusters 14, 15 | done | [W1504-03-find-brachy-plans.md](probes/W1504-03-find-brachy-plans.md) |
+| C20 | W2003-01 | [AAWebServiceTests](../webinars%20%26%20workshops/23%20Mar%202020%20Webinar_ARIAAccess/AAWebServiceTests) | ARIA mining / access → clusters 14, 15 | done | [W2003-01-aria-access-appointments.md](probes/W2003-01-aria-access-appointments.md) |
+| C21 | DW14-04 | [SimpleUIDemoApp](../webinars%20%26%20workshops/Developer%20Workshop%202014/guru%20track%20projects/SimpleUIDemoApp) | scaffolding → cluster 18 | done | [DW14-04-simple-ui-selection-box.md](probes/DW14-04-simple-ui-selection-box.md) |
+| C22 | DW18-09 | [ESAPIX_Demos](../webinars%20%26%20workshops/Developer%20Workshop%202018/ESAPIX-Demo) | scaffolding → cluster 18 | done | [DW18-09-esapix-demos.md](probes/DW18-09-esapix-demos.md) |
+| C23 | DW16-14 | [MeanCTNumber](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/intermediate.7/solution/MeanCTNumber) | image / CT (no probed exemplar) | done | [DW16-14-mean-ct-number.md](probes/DW16-14-mean-ct-number.md) |
+| C24 | DW14-09 | [TRE](../webinars%20%26%20workshops/Developer%20Workshop%202014/hands-on%20exercises/exercise%206/SmartAdapt%20Scripting%20API/Projects/TRE) | image / registration (no probed exemplar) | done | [DW14-09-tre-registration.md](probes/DW14-09-tre-registration.md) |
+| C25 | DW16-25 | [PlanIndices](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Advanced.7) | plan indices (distinct) | done | [DW16-25-plan-indices.md](probes/DW16-25-plan-indices.md) |
+| C26 | W1504-01 | [EQD2_1](../webinars%20%26%20workshops/21%20Apr%202015%20Webinar/Eclipse%20Scripting%20API/Projects/EQD2_1) | EQD2 → cluster 5 | done | [W1504-01-eqd2.md](probes/W1504-01-eqd2.md) |
+| C27 | W1712-01 | [Example_DVH](../webinars%20%26%20workshops/17%20Dec%202017%20Webinar/DoseReview/Projects/Example_DVH) | DVH plot → cluster 3 | done | [W1712-01-example-dvh.md](probes/W1712-01-example-dvh.md) |
+| C28 | ESAP-04 | [GenerateWebDVH](../Eclipse%20Scripting%20API/projects/GenerateWebDVH) | web DVH / lookups → clusters 1, 3 | done | [ESAP-04-generate-web-dvh.md](probes/ESAP-04-generate-web-dvh.md) |
+| C29 | ESPL-01 | [DvhLookups](../Eclipse%20Scripting%20API/plugins/DvhLookups.cs) | web DVH / lookups → clusters 1, 3 | done | [ESPL-01-dvh-lookups.md](probes/ESPL-01-dvh-lookups.md) |
+| C30 | DW14-08 | [Superplan](../webinars%20%26%20workshops/Developer%20Workshop%202014/hands-on%20exercises/exercise%205/Eclipse%20Scripting%20API/Projects/Superplan) | compact planning → cluster 7 | done | [DW14-08-superplan.md](probes/DW14-08-superplan.md) |
+| C31 | W1804-01 | [CreateAPPA](../webinars%20%26%20workshops/06%20Apr%202018%20Webinar/Eclipse%20Scripting%20API/Projects/CreateAPPA) | compact planning → cluster 7 | done | [W1804-01-create-appa.md](probes/W1804-01-create-appa.md) |
 
 ## Tier D — score 2 / 1 (skip unless curious) — 16
 
@@ -111,22 +136,22 @@ Hello-worlds, basic readouts, and project / standalone twins. Probed as **lightw
 
 | # | ID | Solution | Note | Status | Probe |
 |--:|---|---|---|---|---|
-| D1 | DW16-03 | Newbie3 | console beam/jaw/MU readout → cluster 10 | done | DW16-03-beam-jaw-readout.md |
-| D2 | DW16-04 | ShowControlPointInfo | MLC leaf positions → cluster 10 | done | DW16-04-control-point-info.md |
-| D3 | DW16-05 | ShowTargetStructures | list PTV/CTV/GTV in scope (distinct) | done | DW16-05-show-target-structures.md |
-| D4 | DW16-06 | MSExcelForm | demographics → Excel, cluster 17 exemplar | done | DW16-06-excel-demographics.md |
-| D5 | DW16-07 | MSExcelFormBinary | twin of DW16-06 (binary packaging) | done | DW16-07-excel-demographics-binary.md |
-| D6 | DW16-26 | Advanced8Kata | 4D-phase HU via voxel access → see DW16-14 | done | DW16-26-4d-gating-hu.md |
-| D7 | DW16-27 | PatientPhoto | EF DB-access WPF template → cluster 18 | done | DW16-27-patient-photo.md |
-| D8 | DW14-02 | MVVM_Demo | MVVM + print-report scaffolding → cluster 18 | done | DW14-02-mvvm-print-report.md |
-| D9 | DW14-05 | DVHExport | PTV DVH → CSV → cluster 1 | done | DW14-05-dvh-export.md |
-| D10 | DW14-07 | DoseProfiles | dose-at-iso + profile → cluster 4 | done | DW14-07-dose-profiles.md |
-| D11 | DW18-07 | DoseProfile | line profile → CSV, near-twin of DW14-07 | done | DW18-07-dose-profile.md |
-| D12 | W2001-05 | sampleLauncher | exe launcher → cluster 18 | done | W2001-05-sample-launcher.md |
-| D13 | W1810-01 | BeamOrder | Visual Scripting element, twin of W1810-02 | done | W1810-01-beam-order.md |
-| D14 | ESPL-03 | GenerateWebDVH | single-file twin of ESAP-04 → cluster 3 | done | ESPL-03-generate-web-dvh.md |
-| D15 | W1504-05 | hello | hello-world message box | done | W1504-05-hello.md |
-| D16 | W1504-06 | test | active-plan-id message box | done | W1504-06-test.md |
+| D1 | DW16-03 | [Newbie3](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/newbie.3/Newbie3) | console beam/jaw/MU readout → cluster 10 | done | [DW16-03-beam-jaw-readout.md](probes/DW16-03-beam-jaw-readout.md) |
+| D2 | DW16-04 | [ShowControlPointInfo](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/newbie.4/solution/Eclipse%20Scripting%20API/Projects/ShowControlPointInfo) | MLC leaf positions → cluster 10 | done | [DW16-04-control-point-info.md](probes/DW16-04-control-point-info.md) |
+| D3 | DW16-05 | [ShowTargetStructures](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Newbie.5/ShowTargetStructures) | list PTV/CTV/GTV in scope (distinct) | done | [DW16-05-show-target-structures.md](probes/DW16-05-show-target-structures.md) |
+| D4 | DW16-06 | [MSExcelForm](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/newbie.6/Projects/MSExcelForm) | demographics → Excel, cluster 17 exemplar | done | [DW16-06-excel-demographics.md](probes/DW16-06-excel-demographics.md) |
+| D5 | DW16-07 | [MSExcelFormBinary](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/newbie.6/Projects/MSExcelFormBinary) | twin of DW16-06 (binary packaging) | done | [DW16-07-excel-demographics-binary.md](probes/DW16-07-excel-demographics-binary.md) |
+| D6 | DW16-26 | [Advanced8Kata](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Advanced.8/Advanced8Kata) | 4D-phase HU via voxel access → see DW16-14 | done | [DW16-26-4d-gating-hu.md](probes/DW16-26-4d-gating-hu.md) |
+| D7 | DW16-27 | [PatientPhoto](../webinars%20%26%20workshops/Developer%20Workshop%202016/katas/Advanced.X/PatientPhoto) | EF DB-access WPF template → cluster 18 | done | [DW16-27-patient-photo.md](probes/DW16-27-patient-photo.md) |
+| D8 | DW14-02 | [MVVM_Demo](../webinars%20%26%20workshops/Developer%20Workshop%202014/guru%20track%20projects/MVVM) | MVVM + print-report scaffolding → cluster 18 | done | [DW14-02-mvvm-print-report.md](probes/DW14-02-mvvm-print-report.md) |
+| D9 | DW14-05 | [DVHExport](../webinars%20%26%20workshops/Developer%20Workshop%202014/hands-on%20exercises/exercise%201/Eclipse%20Scripting%20API/Projects/DVHExport) | PTV DVH → CSV → cluster 1 | done | [DW14-05-dvh-export.md](probes/DW14-05-dvh-export.md) |
+| D10 | DW14-07 | [DoseProfiles](../webinars%20%26%20workshops/Developer%20Workshop%202014/hands-on%20exercises/exercise%203/Eclipse%20Scripting%20API/Projects/DoseProfiles) | dose-at-iso + profile → cluster 4 | done | [DW14-07-dose-profiles.md](probes/DW14-07-dose-profiles.md) |
+| D11 | DW18-07 | [DoseProfile](../webinars%20%26%20workshops/Developer%20Workshop%202018/ESAPI%20Introduction/Completed%20Projects/Projects/DoseProfile) | line profile → CSV, near-twin of DW14-07 | done | [DW18-07-dose-profile.md](probes/DW18-07-dose-profile.md) |
+| D12 | W2001-05 | [sampleLauncher](../webinars%20%26%20workshops/16%20Jan%202020%20Webinar) | exe launcher → cluster 18 | done | [W2001-05-sample-launcher.md](probes/W2001-05-sample-launcher.md) |
+| D13 | W1810-01 | [BeamOrder](../webinars%20%26%20workshops/16%20Oct%202018%20Webinar/ActionPacks/Projects/BeamOrder) | Visual Scripting element, twin of W1810-02 | done | [W1810-01-beam-order.md](probes/W1810-01-beam-order.md) |
+| D14 | ESPL-03 | [GenerateWebDVH](../Eclipse%20Scripting%20API/plugins/GenerateWebDVH.cs) | single-file twin of ESAP-04 → cluster 3 | done | [ESPL-03-generate-web-dvh.md](probes/ESPL-03-generate-web-dvh.md) |
+| D15 | W1504-05 | [hello](../webinars%20%26%20workshops/21%20Apr%202015%20Webinar/Eclipse%20Scripting%20API/Plugins/hello.cs) | hello-world message box | done | [W1504-05-hello.md](probes/W1504-05-hello.md) |
+| D16 | W1504-06 | [test](../webinars%20%26%20workshops/21%20Apr%202015%20Webinar/Eclipse%20Scripting%20API/Plugins/test.cs) | active-plan-id message box | done | [W1504-06-test.md](probes/W1504-06-test.md) |
 
 ## Excluded as twins (covered by a queued sibling — no separate probe)
 
