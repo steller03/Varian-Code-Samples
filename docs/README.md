@@ -45,21 +45,21 @@ its 31 solutions are the workshop "katas," the densest and cheapest teaching vei
 | Event | Slug | Solutions | Triaged |
 |---|---|---:|:---:|
 | Developer Workshop 2016 (katas) | DW16 | 31 | ☑ |
-| Developer Workshop 2014 | DW14 | 9 | ☐ |
-| Developer Workshop 2018 | DW18 | 9 | ☐ |
-| 16 Jan 2020 Webinar | W2001 | 4 | ☐ |
-| 21 Apr 2015 Webinar | W1504 | 4 | ☐ |
-| 06 Apr 2018 Webinar | W1804 | 3 | ☐ |
-| Research Symposium 2015 | RS15 | 2 | ☐ |
-| 16 Oct 2018 Webinar | W1810 | 2 | ☐ |
-| 20 Aug 2020 Webinar — Constraint Export | W2008 | 1 | ☐ |
-| 31 Mar 2021 Webinar — Beam Data Visualization | W2103 | 1 | ☐ |
-| 17 Dec 2017 Webinar | W1712 | 1 | ☐ |
-| 14 Nov 2018 Webinar (DVH) | W1811 | 1 | ☐ |
-| 22 Jul 2023 Developer Symposium | DS23 | 1 | ☐ |
-| 23 Mar 2020 Webinar — ARIA Access | W2003 | 1 | ☐ |
-| Eclipse Scripting API / projects | ESAP | 10 | ☐ |
-| Eclipse Scripting API / plugins | ESPL | 4* | ☐ |
+| Developer Workshop 2014 | DW14 | 9 | ☑ |
+| Developer Workshop 2018 | DW18 | 9 | ☑ |
+| 16 Jan 2020 Webinar | W2001 | 4 | ☑ |
+| 21 Apr 2015 Webinar | W1504 | 4 | ☑ |
+| 06 Apr 2018 Webinar | W1804 | 3 | ☑ |
+| Research Symposium 2015 | RS15 | 2 | ☑ |
+| 16 Oct 2018 Webinar | W1810 | 2 | ☑ |
+| 20 Aug 2020 Webinar — Constraint Export | W2008 | 1 | ☑ |
+| 31 Mar 2021 Webinar — Beam Data Visualization | W2103 | 1 | ☑ |
+| 17 Dec 2017 Webinar | W1712 | 1 | ☑ |
+| 14 Nov 2018 Webinar (DVH) | W1811 | 1 | ☑ |
+| 22 Jul 2023 Developer Symposium | DS23 | 1 | ☑ |
+| 23 Mar 2020 Webinar — ARIA Access | W2003 | 1 | ☑ |
+| Eclipse Scripting API / projects | ESAP | 10 | ☑ |
+| Eclipse Scripting API / plugins | ESPL | 4* | ☑ |
 
 \*ESPL holds 4 single-file plugins (no `.sln`); catalog each file as its own unit.
 **Total: 80 solutions + 4 standalone plugins ≈ 84 units.**
