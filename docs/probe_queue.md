@@ -48,13 +48,13 @@ Ordered by judgment. Probe after Tier A, or cherry-pick.
 | B4 | ESAP-08 | RBEReport (project form) | 4 | done | ESAP-08-rbe-report.md |
 | B5 | W2103-01 | BeamDataVisualization | 4 | done | W2103-01-beam-data-visualization.md |
 | B6 | DW18-01 | VAIS — OAuth/FHIR ARIA | 4 | done | DW18-01-vais-aria-webservice.md |
-| B7 | DW18-06 | AutoPlan | 4 | queued | |
-| B8 | W1504-02 | EQD2_2 — plan sums + PDR brachy | 4 | queued | |
-| B9 | W1804-03 | CreateVerificationPlan — IMRT QA | 4 | queued | |
-| B10 | DW16-09 | PlanQualityCheck | 4 | queued | |
-| B11 | DW16-12 | CreateVerificationPlan | 4 | queued | |
-| B12 | DW16-17 | Intermediate_10 — collimator clearance | 4 | queued | |
-| B13 | DW16-19 | A3_Plugin — control-point report | 4 | queued | |
+| B7 | DW18-06 | AutoPlan | 4 | done | DW18-06-autoplan.md |
+| B8 | W1504-02 | EQD2_2 — plan sums + PDR brachy | 4 | done | W1504-02-eqd2-plan-sum-pdr.md |
+| B9 | W1804-03 | CreateVerificationPlan — IMRT QA | 4 | done | W1804-03-create-verification-plan.md |
+| B10 | DW16-09 | PlanQualityCheck | 4 | done | DW16-09-plan-quality-check.md |
+| B11 | DW16-12 | CreateVerificationPlan | 4 | done | DW16-12-create-verification-plan.md |
+| B12 | DW16-17 | Intermediate_10 — collimator clearance | 4 | done | DW16-17-collimator-clearance.md |
+| B13 | DW16-19 | A3_Plugin — control-point report | 4 | done | DW16-19-control-point-report.md |
 | B14 | DW16-30 | SpotWeightReporting | 4 | queued | |
 | B15 | DW16-28 | Proton1 — uncertainty DVH max | 4 | queued | |
 | B16 | DW16-29 | Proton2 — uncertainty DVH D95 | 4 | queued | |
