@@ -89,16 +89,16 @@ Tiers A/B are done.
 | C15 | DW14-06 | DataMining | ARIA mining / access → clusters 14, 15 | done | DW14-06-data-mining.md |
 | C16 | DW18-02 | AppRoleSample | ARIA mining / access → clusters 14, 15 | done | DW18-02-app-role-sample.md |
 | C17 | DW18-03 | ARIAAccessSample | ARIA mining / access → clusters 14, 15 | done | DW18-03-aria-access-sample.md |
-| C18 | DW18-05 | DocumenServiceSample | ARIA mining / access → clusters 14, 15 | queued | |
-| C19 | W1504-03 | FindBrachyPlans | ARIA mining / access → clusters 14, 15 | queued | |
-| C20 | W2003-01 | AAWebServiceTests | ARIA mining / access → clusters 14, 15 | queued | |
-| C21 | DW14-04 | SimpleUIDemoApp | scaffolding → cluster 18 | queued | |
-| C22 | DW18-09 | ESAPIX_Demos | scaffolding → cluster 18 | queued | |
-| C23 | DW16-14 | MeanCTNumber | image / CT (no probed exemplar) | queued | |
-| C24 | DW14-09 | TRE | image / registration (no probed exemplar) | queued | |
-| C25 | DW16-25 | PlanIndices | plan indices (distinct) | queued | |
-| C26 | W1504-01 | EQD2_1 | EQD2 → cluster 5 | queued | |
-| C27 | W1712-01 | Example_DVH | DVH plot → cluster 3 | queued | |
+| C18 | DW18-05 | DocumenServiceSample | ARIA mining / access → clusters 14, 15 | done | DW18-05-document-service.md |
+| C19 | W1504-03 | FindBrachyPlans | ARIA mining / access → clusters 14, 15 | done | W1504-03-find-brachy-plans.md |
+| C20 | W2003-01 | AAWebServiceTests | ARIA mining / access → clusters 14, 15 | done | W2003-01-aria-access-appointments.md |
+| C21 | DW14-04 | SimpleUIDemoApp | scaffolding → cluster 18 | done | DW14-04-simple-ui-selection-box.md |
+| C22 | DW18-09 | ESAPIX_Demos | scaffolding → cluster 18 | done | DW18-09-esapix-demos.md |
+| C23 | DW16-14 | MeanCTNumber | image / CT (no probed exemplar) | done | DW16-14-mean-ct-number.md |
+| C24 | DW14-09 | TRE | image / registration (no probed exemplar) | done | DW14-09-tre-registration.md |
+| C25 | DW16-25 | PlanIndices | plan indices (distinct) | done | DW16-25-plan-indices.md |
+| C26 | W1504-01 | EQD2_1 | EQD2 → cluster 5 | done | W1504-01-eqd2.md |
+| C27 | W1712-01 | Example_DVH | DVH plot → cluster 3 | done | W1712-01-example-dvh.md |
 | C28 | ESAP-04 | GenerateWebDVH | web DVH / lookups → clusters 1, 3 | queued | |
 | C29 | ESPL-01 | DvhLookups | web DVH / lookups → clusters 1, 3 | queued | |
 | C30 | DW14-08 | Superplan | compact planning → cluster 7 | queued | |
