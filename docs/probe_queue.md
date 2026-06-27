@@ -24,11 +24,11 @@ Your explicit picks lead the queue (A1–A3), then the rest of the top 20 in ran
 | A8 | ESAP-06 | PlanQualityMetrics | 5 | done | ESAP-06-plan-quality-metrics.md |
 | A9 | ESAP-10 | Uab.VMS.Console — ESAPI REPL | 5 | done | ESAP-10-esapi-repl-console.md |
 | A10 | ESAP-07 | PluginTester | 5 | done | ESAP-07-plugin-tester.md |
-| A11 | DW14-01 | ESAPIAnon — C-MOVE + anonymize | 5 | queued | |
-| A12 | W1504-04 | RBEReport — interactive radiobiology | 5 | queued | |
-| A13 | DW16-18 | DvhBioCorrection — LQ DVH correction | 5 | queued | |
-| A14 | DW16-21 | Advanced_4 — cohort mining | 5 | queued | |
-| A15 | DW16-31 | CustomPostProcessing — spot-MU limits | 5 | queued | |
+| A11 | DW14-01 | ESAPIAnon — C-MOVE + anonymize | 5 | done | DW14-01-esapi-anon.md |
+| A12 | W1504-04 | RBEReport — interactive radiobiology | 5 | done | W1504-04-rbe-report.md |
+| A13 | DW16-18 | DvhBioCorrection — LQ DVH correction | 5 | done | DW16-18-dvh-bio-correction.md |
+| A14 | DW16-21 | Advanced_4 — cohort mining | 5 | done | DW16-21-data-mine-by-anatomy.md |
+| A15 | DW16-31 | CustomPostProcessing — spot-MU limits | 5 | done | DW16-31-proton-spot-mu-limits.md |
 | A16 | W2008-01 | DVH_Evaluator | 4 | queued | |
 | A17 | W2001-01 | DoseMetricExample (MVVM) | 4 | queued | |
 | A18 | W1811-01 | DiggingIntoDVH | 4 | queued | |
