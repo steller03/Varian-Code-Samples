@@ -29,11 +29,11 @@ Your explicit picks lead the queue (A1–A3), then the rest of the top 20 in ran
 | A13 | DW16-18 | DvhBioCorrection — LQ DVH correction | 5 | done | DW16-18-dvh-bio-correction.md |
 | A14 | DW16-21 | Advanced_4 — cohort mining | 5 | done | DW16-21-data-mine-by-anatomy.md |
 | A15 | DW16-31 | CustomPostProcessing — spot-MU limits | 5 | done | DW16-31-proton-spot-mu-limits.md |
-| A16 | W2008-01 | DVH_Evaluator | 4 | queued | |
-| A17 | W2001-01 | DoseMetricExample (MVVM) | 4 | queued | |
-| A18 | W1811-01 | DiggingIntoDVH | 4 | queued | |
-| A19 | DW14-03 | RapidPlanEvaluation | 4 | queued | |
-| A20 | ESAP-02 | Export3D | 4 | queued | |
+| A16 | W2008-01 | DVH_Evaluator | 4 | done | W2008-01-dvh-evaluator.md |
+| A17 | W2001-01 | DoseMetricExample (MVVM) | 4 | done | W2001-01-dose-metric-mvvm.md |
+| A18 | W1811-01 | DiggingIntoDVH | 4 | done | W1811-01-digging-into-dvh.md |
+| A19 | DW14-03 | RapidPlanEvaluation | 4 | done | DW14-03-rapidplan-evaluation.md |
+| A20 | ESAP-02 | Export3D | 4 | done | ESAP-02-export-3d.md |
 | A21 | RS15-02 | EUDScript — EUD/TCP/NTCP | 4 | queued | |
 
 ## Tier B — next: remaining score-4 units — 17
