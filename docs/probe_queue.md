@@ -19,11 +19,11 @@ Your explicit picks lead the queue (A1–A3), then the rest of the top 20 in ran
 | A3 | ESAP-05 | GetDicomCollection — DCMTK C-MOVE | 4 | done | ESAP-05-get-dicom-collection.md |
 | A4 | DW18-04 | AutomatedPlanningDemo (MCO) | 5 | done | DW18-04-automated-planning-mco.md |
 | A5 | RS15-01 | AutomatedPlanningDemo (full pipeline) | 5 | done | RS15-01-automated-planning-pipeline.md |
-| A6 | DS23-01 | ProtonFeaturesDemo (v18 IMPT) | 5 | queued | |
-| A7 | DW16-22 | Advanced_5 — automated VMAT | 5 | queued | |
-| A8 | ESAP-06 | PlanQualityMetrics | 5 | queued | |
-| A9 | ESAP-10 | Uab.VMS.Console — ESAPI REPL | 5 | queued | |
-| A10 | ESAP-07 | PluginTester | 5 | queued | |
+| A6 | DS23-01 | ProtonFeaturesDemo (v18 IMPT) | 5 | done | DS23-01-proton-features-demo.md |
+| A7 | DW16-22 | Advanced_5 — automated VMAT | 5 | done | DW16-22-automated-vmat-planning.md |
+| A8 | ESAP-06 | PlanQualityMetrics | 5 | done | ESAP-06-plan-quality-metrics.md |
+| A9 | ESAP-10 | Uab.VMS.Console — ESAPI REPL | 5 | done | ESAP-10-esapi-repl-console.md |
+| A10 | ESAP-07 | PluginTester | 5 | done | ESAP-07-plugin-tester.md |
 | A11 | DW14-01 | ESAPIAnon — C-MOVE + anonymize | 5 | queued | |
 | A12 | W1504-04 | RBEReport — interactive radiobiology | 5 | queued | |
 | A13 | DW16-18 | DvhBioCorrection — LQ DVH correction | 5 | queued | |
