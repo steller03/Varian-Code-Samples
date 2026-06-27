@@ -62,19 +62,47 @@ Ordered by judgment. Probe after Tier A, or cherry-pick.
 
 Note: B15 + B16 are a paired proton-DVH exercise — consider one combined probe.
 
-## Tier C — score 3 (probe on request only) — 31
+## Tier C — score 3 — 31
 
-Most are duplicate-cluster members superseded by a Tier A/B exemplar (see SYNTHESIS clusters);
-probe one individually only if you want that specific variant.
+All score 3. Most are duplicate-cluster members superseded by a Tier A/B exemplar (see SYNTHESIS
+clusters) — the **Cluster / note** column records which, so you can cherry-pick the distinctive
+ones (e.g. C23–C25: the only Image & registration and plan-index units in the catalogue) instead
+of walking duplicates. Now tabled in listed order so the dispatch can walk it top to bottom once
+Tiers A/B are done.
 
-DW16-01, DW16-02, DW16-08, DW16-15 (DVH-extract katas → cluster 1, use W1811-01) · W2001-02,
-W2001-03, W2001-04 (MVVM DVH/metrics → clusters 1, 3) · DW16-13, DW16-23, DW16-24, W1804-02
-(opt / control structures → cluster 11) · DW16-10, DW18-08 (plan / patient summary → cluster 16) ·
-DW16-11, DW14-06, DW18-02, DW18-03, DW18-05, W1504-03, W2003-01 (ARIA mining / access →
-clusters 14, 15) · DW14-04, DW18-09 (scaffolding → cluster 18) · DW16-14, DW14-09 (image / CT) ·
-DW16-25 (plan indices) · W1504-01 (EQD2 → cluster 5) · W1712-01 (DVH plot → cluster 3) ·
-ESAP-04, ESPL-01 (web DVH / lookups → clusters 1, 3) · DW14-08, W1804-01 (compact planning →
-cluster 7).
+| # | ID | Solution | Cluster / note | Status | Probe |
+|--:|---|---|---|---|---|
+| C1 | DW16-01 | DVHMetrics | DVH-extract → cluster 1 (W1811-01) | done | DW16-01-dvh-metrics.md |
+| C2 | DW16-02 | CSVDVHMetrics | DVH-extract → cluster 1 (W1811-01) | done | DW16-02-csv-dvh-metrics.md |
+| C3 | DW16-08 | DVHExtract | DVH-extract → cluster 1 (W1811-01) | done | DW16-08-dvh-extract.md |
+| C4 | DW16-15 | VolumeAtPercentDose | DVH-extract → cluster 1 (W1811-01) | done | DW16-15-volume-at-percent-dose.md |
+| C5 | W2001-02 | DVHPlot | MVVM DVH/metrics → clusters 1, 3 | done | W2001-02-dvh-plot.md |
+| C6 | W2001-03 | DoseMetrics | MVVM DVH/metrics → clusters 1, 3 | done | W2001-03-dose-metrics.md |
+| C7 | W2001-04 | DoseParameters | MVVM DVH/metrics → clusters 1, 3 | done | W2001-04-dose-parameters.md |
+| C8 | DW16-13 | Intermediate_6 | opt / control structures → cluster 11 | queued | |
+| C9 | DW16-23 | ExtractBodySection | opt / control structures → cluster 11 | queued | |
+| C10 | DW16-24 | SplitStructure | opt / control structures → cluster 11 | queued | |
+| C11 | W1804-02 | CreateOptStructures | opt / control structures → cluster 11 | queued | |
+| C12 | DW16-10 | PatientSummary | plan / patient summary → cluster 16 | queued | |
+| C13 | DW18-08 | PlanInfo | plan / patient summary → cluster 16 | queued | |
+| C14 | DW16-11 | FindLargestVolume | ARIA mining / access → clusters 14, 15 | queued | |
+| C15 | DW14-06 | DataMining | ARIA mining / access → clusters 14, 15 | queued | |
+| C16 | DW18-02 | AppRoleSample | ARIA mining / access → clusters 14, 15 | queued | |
+| C17 | DW18-03 | ARIAAccessSample | ARIA mining / access → clusters 14, 15 | queued | |
+| C18 | DW18-05 | DocumenServiceSample | ARIA mining / access → clusters 14, 15 | queued | |
+| C19 | W1504-03 | FindBrachyPlans | ARIA mining / access → clusters 14, 15 | queued | |
+| C20 | W2003-01 | AAWebServiceTests | ARIA mining / access → clusters 14, 15 | queued | |
+| C21 | DW14-04 | SimpleUIDemoApp | scaffolding → cluster 18 | queued | |
+| C22 | DW18-09 | ESAPIX_Demos | scaffolding → cluster 18 | queued | |
+| C23 | DW16-14 | MeanCTNumber | image / CT (no probed exemplar) | queued | |
+| C24 | DW14-09 | TRE | image / registration (no probed exemplar) | queued | |
+| C25 | DW16-25 | PlanIndices | plan indices (distinct) | queued | |
+| C26 | W1504-01 | EQD2_1 | EQD2 → cluster 5 | queued | |
+| C27 | W1712-01 | Example_DVH | DVH plot → cluster 3 | queued | |
+| C28 | ESAP-04 | GenerateWebDVH | web DVH / lookups → clusters 1, 3 | queued | |
+| C29 | ESPL-01 | DvhLookups | web DVH / lookups → clusters 1, 3 | queued | |
+| C30 | DW14-08 | Superplan | compact planning → cluster 7 | queued | |
+| C31 | W1804-01 | CreateAPPA | compact planning → cluster 7 | queued | |
 
 ## Tier D — score 2 / 1 (skip unless curious) — 16
 
