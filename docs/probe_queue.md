@@ -99,16 +99,34 @@ Tiers A/B are done.
 | C25 | DW16-25 | PlanIndices | plan indices (distinct) | done | DW16-25-plan-indices.md |
 | C26 | W1504-01 | EQD2_1 | EQD2 → cluster 5 | done | W1504-01-eqd2.md |
 | C27 | W1712-01 | Example_DVH | DVH plot → cluster 3 | done | W1712-01-example-dvh.md |
-| C28 | ESAP-04 | GenerateWebDVH | web DVH / lookups → clusters 1, 3 | queued | |
-| C29 | ESPL-01 | DvhLookups | web DVH / lookups → clusters 1, 3 | queued | |
-| C30 | DW14-08 | Superplan | compact planning → cluster 7 | queued | |
-| C31 | W1804-01 | CreateAPPA | compact planning → cluster 7 | queued | |
+| C28 | ESAP-04 | GenerateWebDVH | web DVH / lookups → clusters 1, 3 | done | ESAP-04-generate-web-dvh.md |
+| C29 | ESPL-01 | DvhLookups | web DVH / lookups → clusters 1, 3 | done | ESPL-01-dvh-lookups.md |
+| C30 | DW14-08 | Superplan | compact planning → cluster 7 | done | DW14-08-superplan.md |
+| C31 | W1804-01 | CreateAPPA | compact planning → cluster 7 | done | W1804-01-create-appa.md |
 
 ## Tier D — score 2 / 1 (skip unless curious) — 16
 
-Hello-worlds, basic readouts, and project / standalone twins:
-DW16-03, DW16-04, DW16-05, DW16-06, DW16-07, DW16-26, DW16-27, DW14-02, DW14-05, DW14-07,
-DW18-07, W2001-05, W1810-01, ESPL-03, W1504-05, W1504-06.
+Hello-worlds, basic readouts, and project / standalone twins. Probed as **lightweight** delta entries
+(what it does, single ESAPI surface, twin/cluster pointer).
+
+| # | ID | Solution | Note | Status | Probe |
+|--:|---|---|---|---|---|
+| D1 | DW16-03 | Newbie3 | console beam/jaw/MU readout → cluster 10 | done | DW16-03-beam-jaw-readout.md |
+| D2 | DW16-04 | ShowControlPointInfo | MLC leaf positions → cluster 10 | done | DW16-04-control-point-info.md |
+| D3 | DW16-05 | ShowTargetStructures | list PTV/CTV/GTV in scope (distinct) | done | DW16-05-show-target-structures.md |
+| D4 | DW16-06 | MSExcelForm | demographics → Excel, cluster 17 exemplar | done | DW16-06-excel-demographics.md |
+| D5 | DW16-07 | MSExcelFormBinary | twin of DW16-06 (binary packaging) | done | DW16-07-excel-demographics-binary.md |
+| D6 | DW16-26 | Advanced8Kata | 4D-phase HU via voxel access → see DW16-14 | done | DW16-26-4d-gating-hu.md |
+| D7 | DW16-27 | PatientPhoto | EF DB-access WPF template → cluster 18 | done | DW16-27-patient-photo.md |
+| D8 | DW14-02 | MVVM_Demo | MVVM + print-report scaffolding → cluster 18 | done | DW14-02-mvvm-print-report.md |
+| D9 | DW14-05 | DVHExport | PTV DVH → CSV → cluster 1 | done | DW14-05-dvh-export.md |
+| D10 | DW14-07 | DoseProfiles | dose-at-iso + profile → cluster 4 | done | DW14-07-dose-profiles.md |
+| D11 | DW18-07 | DoseProfile | line profile → CSV, near-twin of DW14-07 | done | DW18-07-dose-profile.md |
+| D12 | W2001-05 | sampleLauncher | exe launcher → cluster 18 | done | W2001-05-sample-launcher.md |
+| D13 | W1810-01 | BeamOrder | Visual Scripting element, twin of W1810-02 | done | W1810-01-beam-order.md |
+| D14 | ESPL-03 | GenerateWebDVH | single-file twin of ESAP-04 → cluster 3 | done | ESPL-03-generate-web-dvh.md |
+| D15 | W1504-05 | hello | hello-world message box | done | W1504-05-hello.md |
+| D16 | W1504-06 | test | active-plan-id message box | done | W1504-06-test.md |
 
 ## Excluded as twins (covered by a queued sibling — no separate probe)
 
