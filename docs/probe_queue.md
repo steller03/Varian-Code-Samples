@@ -14,11 +14,11 @@ Your explicit picks lead the queue (A1–A3), then the rest of the top 20 in ran
 
 | # | ID | Solution | Score | Status | Probe |
 |--:|---|---|:--:|---|---|
-| A1 | DW16-16 | ExtractDosePlane — planar dose → CSV | 4 | queued | |
-| A2 | ESAP-01 | DataMining — per-patient treatment report | 4 | queued | |
-| A3 | ESAP-05 | GetDicomCollection — DCMTK C-MOVE | 4 | queued | |
-| A4 | DW18-04 | AutomatedPlanningDemo (MCO) | 5 | queued | |
-| A5 | RS15-01 | AutomatedPlanningDemo (full pipeline) | 5 | queued | |
+| A1 | DW16-16 | ExtractDosePlane — planar dose → CSV | 4 | done | DW16-16-extract-dose-plane.md |
+| A2 | ESAP-01 | DataMining — per-patient treatment report | 4 | done | ESAP-01-data-mining.md |
+| A3 | ESAP-05 | GetDicomCollection — DCMTK C-MOVE | 4 | done | ESAP-05-get-dicom-collection.md |
+| A4 | DW18-04 | AutomatedPlanningDemo (MCO) | 5 | done | DW18-04-automated-planning-mco.md |
+| A5 | RS15-01 | AutomatedPlanningDemo (full pipeline) | 5 | done | RS15-01-automated-planning-pipeline.md |
 | A6 | DS23-01 | ProtonFeaturesDemo (v18 IMPT) | 5 | queued | |
 | A7 | DW16-22 | Advanced_5 — automated VMAT | 5 | queued | |
 | A8 | ESAP-06 | PlanQualityMetrics | 5 | queued | |
