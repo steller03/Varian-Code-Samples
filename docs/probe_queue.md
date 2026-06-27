@@ -55,10 +55,10 @@ Ordered by judgment. Probe after Tier A, or cherry-pick.
 | B11 | DW16-12 | CreateVerificationPlan | 4 | done | DW16-12-create-verification-plan.md |
 | B12 | DW16-17 | Intermediate_10 — collimator clearance | 4 | done | DW16-17-collimator-clearance.md |
 | B13 | DW16-19 | A3_Plugin — control-point report | 4 | done | DW16-19-control-point-report.md |
-| B14 | DW16-30 | SpotWeightReporting | 4 | queued | |
-| B15 | DW16-28 | Proton1 — uncertainty DVH max | 4 | queued | |
-| B16 | DW16-29 | Proton2 — uncertainty DVH D95 | 4 | queued | |
-| B17 | W1810-02 | PlanChecker — Visual Scripting | 4 | queued | |
+| B14 | DW16-30 | SpotWeightReporting | 4 | done | DW16-30-spot-weight-reporting.md |
+| B15 | DW16-28 | Proton1 — uncertainty DVH max | 4 | done | DW16-28-29-proton-uncertainty-dvh.md |
+| B16 | DW16-29 | Proton2 — uncertainty DVH D95 | 4 | done | DW16-28-29-proton-uncertainty-dvh.md |
+| B17 | W1810-02 | PlanChecker — Visual Scripting | 4 | done | W1810-02-plan-checker.md |
 
 Note: B15 + B16 are a paired proton-DVH exercise — consider one combined probe.
 
